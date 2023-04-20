@@ -14,8 +14,18 @@ This project utilizes a Vite built React frontend and a Firebase backend that ha
 
 ## Optimizations
 
-Initially this React project was built with the default create-react-app but quickly moved to Vite for a reduced build time and smaller bundle size. The project was also optimized for mobile devices and tablets. The chat application was also optimized for speed by using a realtime database and only loading the last 20 messages on initial load.
+Initially this React project was built with the default create-react-app but quickly moved to Vite for a reduced build time and smaller bundle size. Having more time I would love to implement a censorship feature that would filter out profanity and other inappropriate language to keep the chat clean.
 
 ## Lessons Learned
 
 This project was a great introduction to Firebase and Firestore. I learned how to use Firebase to handle authentication and how to use Firestore to store and retrieve data in realtime. I also learned how to use Vite to build a React application and how to optimize a React application for mobile devices and tablets.
+
+## Installation
+
+- Clone repo
+- run 'npm install'
+- repalce "//config here" with your own firebase config in the App.jsx file, in the firebaseConfig object variable
+const firebaseConfig = {
+  //config here
+};
+- run 'npm dev' to view on localhost
